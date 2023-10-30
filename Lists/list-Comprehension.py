@@ -16,5 +16,5 @@ even = [number  for number in numbers if number%2==0 ]
 print(even)
 
 #using else and if 
-even = [number if number%2==0  else 0 for number in numbers  ]
+even = ['Even' if number%2==0  else 'Odd' for number in numbers  ]
 print(even)
